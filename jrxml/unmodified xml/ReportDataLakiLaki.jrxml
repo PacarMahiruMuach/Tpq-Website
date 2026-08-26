@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ReportDataLakiLaki" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7f1189e8-3e9e-48fa-8175-86290a39e66e">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM santri WHERE gender ="Laki-Laki"]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="nis" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nis"/>
+		<property name="com.jaspersoft.studio.field.label" value="nis"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="nama" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nama"/>
+		<property name="com.jaspersoft.studio.field.label" value="nama"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="kelas" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="kelas"/>
+		<property name="com.jaspersoft.studio.field.label" value="kelas"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="gender"/>
+		<property name="com.jaspersoft.studio.field.label" value="gender"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="ttl" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="ttl"/>
+		<property name="com.jaspersoft.studio.field.label" value="ttl"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="wali" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="wali"/>
+		<property name="com.jaspersoft.studio.field.label" value="wali"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="note" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="note"/>
+		<property name="com.jaspersoft.studio.field.label" value="note"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="UTS" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="UTS"/>
+		<property name="com.jaspersoft.studio.field.label" value="UTS"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="UAS" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="UAS"/>
+		<property name="com.jaspersoft.studio.field.label" value="UAS"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="Qiroah" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Qiroah"/>
+		<property name="com.jaspersoft.studio.field.label" value="Qiroah"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="Hafalan" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Hafalan"/>
+		<property name="com.jaspersoft.studio.field.label" value="Hafalan"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="Sikap" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Sikap"/>
+		<property name="com.jaspersoft.studio.field.label" value="Sikap"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="Rata" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Rata"/>
+		<property name="com.jaspersoft.studio.field.label" value="Rata"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<field name="Predikat" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Predikat"/>
+		<property name="com.jaspersoft.studio.field.label" value="Predikat"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="santri"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<image>
+				<reportElement x="12" y="0" width="64" height="64" uuid="bb7fe866-4c72-4153-9848-d6eceaa3ce3b"/>
+				<imageExpression><![CDATA["C:\\Users\\Lenovo\\Documents\\TPQ Al-Mujahidin\\src\\image\\logoo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="128" y="0" width="293" height="46" uuid="8e70e47d-349d-487c-b395-f561f5b72402"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="28" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TPQ AL-MUJAHIDIN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="130" y="39" width="293" height="25" uuid="23bab95a-5c6c-45d2-82cf-fa5f63d44794"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Jl. Peninggaran Barat III no.45. Kebayoran Lama utara]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-1" y="78" width="555" height="1" uuid="0612cb03-0429-4a98-ac21-336fde3a5e4b"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="70" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="1" width="555" height="31" uuid="fef9caa1-2aff-47df-b0d3-fb024dc56012"/>
+				<textElement textAlignment="Center">
+					<font size="19" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA SANTRI TPQ AL-MUJAHIDIN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="406" y="50" width="52" height="20" uuid="0a9827e1-17c3-4c19-bf9b-a30457f69b86"/>
+				<textElement>
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<text><![CDATA[Jakarta,]]></text>
+			</staticText>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="458" y="50" width="97" height="20" uuid="2261a0ae-d115-4aa0-8632-5b6520ae3060"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement x="468" y="0" width="87" height="20" uuid="6aed60a3-c518-410e-b86f-c417b2ebee02"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="386" y="0" width="82" height="20" uuid="9b169435-ce7c-4f6f-9058-be12947682d6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="286" y="0" width="100" height="20" uuid="83baaa93-1494-4a0a-b65e-eadd8bc9332e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="50" y="0" width="88" height="20" uuid="d534e5b6-3ede-4d52-985d-c4e7f4a7e974"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="0" width="50" height="20" uuid="24034272-b19e-439c-b85e-3beaa8c9420b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="385" y="0" width="82" height="20" uuid="f629a6f1-d0e9-4da2-ad93-258ddd5aaeee"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[WALI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="0" width="50" height="20" uuid="0e2ff035-d32a-4477-b876-6475592d88df"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NIS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="49" y="0" width="88" height="20" uuid="2451d423-c3f0-488a-ac08-34625d6dbcc2"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NAMA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="467" y="0" width="88" height="20" uuid="58040d81-a81d-436c-b311-a9c117700df1"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CATATAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="285" y="0" width="100" height="20" uuid="1d79f298-013c-43b0-8c37-e1b8e236dd8e"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TTL]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="138" y="0" width="66" height="20" uuid="4530cc74-94cc-458f-b21d-8e3beb45c31b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="137" y="0" width="66" height="20" uuid="8649c496-99ff-45de-b313-83446047e6d6"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KELAS]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="204" y="0" width="82" height="20" uuid="82645e65-6578-4ac9-b525-3b59b4c16098"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="203" y="0" width="82" height="20" uuid="74cff174-f9c9-436b-acb3-e209d6349086"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GENDER]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="50" height="20" uuid="db331dbf-f21b-4c5b-84a7-78136efdefc5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="50" y="0" width="88" height="20" uuid="0cd17499-98a4-4658-a7c8-8ad58f9a1f7e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="138" y="0" width="66" height="20" uuid="fd21b9b0-470f-40bd-b386-cedf08122ed3"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="204" y="0" width="82" height="20" uuid="048bbfd4-8057-4e38-ae37-463a6cd00da4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="286" y="0" width="100" height="20" uuid="05b75b5d-3721-40d8-85c7-19bb4973b1c8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="386" y="0" width="82" height="20" uuid="d76b4681-262a-4421-a7cb-a39095949c7b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="468" y="0" width="87" height="20" uuid="71154efd-afd3-4c03-879f-c50891e4e51a"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="0" width="50" height="20" uuid="5ec1303d-267b-4aa8-8f65-ae891ed75e03"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="0" width="88" height="20" uuid="a2ca1c96-b17a-44f7-b17d-28a141aa7269"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="138" y="0" width="66" height="20" uuid="86edc4aa-1481-477e-87f9-6378b4e85f38"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kelas}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="204" y="0" width="82" height="20" uuid="8ddfe3d9-6760-43e2-a12b-45cfb212580b"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="286" y="0" width="100" height="20" uuid="e5f5a62d-0f82-4dfa-9dd9-0471b64f5f18"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{ttl}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="386" y="0" width="82" height="20" uuid="184d27af-1f19-43a3-8006-a4016f313bf9"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{wali}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="468" y="0" width="88" height="20" uuid="2ce8a074-2070-45a6-9802-94441698792e"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{note}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="109" splitType="Stretch">
+			<staticText>
+				<reportElement x="455" y="14" width="100" height="20" uuid="5d924f1f-6d49-49da-bf59-0d6d4077e2c5"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Mengetahui,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="34" width="100" height="20" uuid="05f42204-f3d5-4f4b-8122-b998d246bd92"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Kepala Sekolah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="89" width="100" height="20" uuid="b68b10fb-9296-4286-be80-3760a9d2032c"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Indra Pramana, Spd.]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

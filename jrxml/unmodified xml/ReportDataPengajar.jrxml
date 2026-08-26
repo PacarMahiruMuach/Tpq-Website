@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_2" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="acc30bab-18ba-4276-8e03-1fed0dea0090">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (2)"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM pengajar]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="pengajar"/>
+	</field>
+	<field name="nama" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nama"/>
+		<property name="com.jaspersoft.studio.field.label" value="nama"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="pengajar"/>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="gender"/>
+		<property name="com.jaspersoft.studio.field.label" value="gender"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="pengajar"/>
+	</field>
+	<field name="wali_kelas" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="wali_kelas"/>
+		<property name="com.jaspersoft.studio.field.label" value="wali_kelas"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="pengajar"/>
+	</field>
+	<field name="ttl" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="ttl"/>
+		<property name="com.jaspersoft.studio.field.label" value="ttl"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="pengajar"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="81" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="80" width="555" height="1" uuid="4ba8598d-06c6-4dde-8be5-020757356ea1"/>
+			</line>
+			<image>
+				<reportElement x="12" y="0" width="64" height="64" uuid="ad59e4d0-bcba-41a8-8852-c677a82d8bd1"/>
+				<imageExpression><![CDATA["C:\\Users\\Lenovo\\Documents\\TPQ Al-Mujahidin\\src\\image\\logoo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="128" y="0" width="293" height="46" uuid="8811ceed-ae4f-4654-b14a-3b6f967b64e4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="28" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TPQ AL-MUJAHIDIN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="130" y="39" width="293" height="25" uuid="aad1a88c-6d72-42bf-afd2-5b71ba211afe"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Jl. Peninggaran Barat III no.45. Kebayoran Lama utara]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="64" splitType="Stretch">
+			<staticText>
+				<reportElement x="1" y="0" width="555" height="31" uuid="296b5cdb-8cfd-4946-bef1-a709d39df0ce"/>
+				<textElement textAlignment="Center">
+					<font size="19" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA PENGAJAR TPQ AL-MUJAHIDIN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="406" y="44" width="52" height="20" uuid="25d76e69-d151-42f9-a924-503f94635052"/>
+				<textElement>
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<text><![CDATA[Jakarta,]]></text>
+			</staticText>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="458" y="44" width="97" height="20" uuid="71fe1628-313b-441f-bdbf-109537308374"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement x="352" y="0" width="100" height="20" uuid="31ab0aa1-b87d-4771-b246-4aac3c49bb20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="452" y="0" width="103" height="20" uuid="c3e66b89-b89b-433b-8aed-c3b45c5f9f18"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="270" y="0" width="82" height="20" uuid="d7669036-b5c8-4e18-92f1-f3790a879779"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="1" y="0" width="137" height="20" uuid="946854d4-4368-4904-ab4d-d138093fe8b3"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="270" y="0" width="82" height="20" uuid="e54af400-e495-4379-a0bc-7a50b42956ca"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[STATUS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="0" width="136" height="20" uuid="5a33d38c-b987-42a2-9d1c-5b3ee27ce9a9"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NAMA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="352" y="0" width="100" height="20" uuid="89378185-1fb3-478f-b5eb-3538d36e2619"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[WALI KELAS]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="138" y="0" width="132" height="20" uuid="09fc7008-577d-4c83-a317-7d1d30aa3dc5"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="138" y="0" width="132" height="20" uuid="dfc7b01a-e205-43f7-a9b9-58d3556b4545"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JENIS KELAMIN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="452" y="0" width="103" height="20" uuid="efe544bf-31de-41c6-9f36-d4bdccc1ea93"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TTL]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement x="352" y="0" width="100" height="20" uuid="7a677b46-5522-4c18-9ea4-fd81cb46e382"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="452" y="0" width="103" height="20" uuid="ae2c8586-8ad1-4400-9fce-e8ed45f76fff"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="270" y="0" width="82" height="20" uuid="8567f30e-8536-4dfb-8a67-d6a833d21c07"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="1" y="0" width="137" height="20" uuid="ad54dcf8-09d8-4633-97a2-a8a9268961dc"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="138" y="0" width="132" height="20" uuid="c577231d-da38-426d-8df9-e7820f976ac5"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="0" width="137" height="20" uuid="1471afc9-f524-4970-bbfb-d9ae4148e1e0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fb0d651b-4a41-4b66-b1d4-b4db2dccf326"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="138" y="0" width="132" height="20" uuid="59415ab7-a9c6-4683-8658-357771e6b7dd">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2e55d93d-fbbb-4f9d-aeb3-f0002059a47f"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="0" width="100" height="20" uuid="402fdb71-931f-4753-a81b-f54c740a6a5e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="75c297ec-f3b2-4fc4-abe4-8f25af52455f"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{wali_kelas}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="453" y="0" width="100" height="20" uuid="c2f60922-12fd-4d9b-8213-66371f8e4a57">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fcc057db-6e8f-4f31-9fc3-6b8b5b3b8172"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{ttl}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="270" y="0" width="82" height="20" uuid="2a3a64b8-2ae0-47cc-a209-bb9b86ee4b95"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Pengajar/Staff]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="109" splitType="Stretch">
+			<staticText>
+				<reportElement x="456" y="0" width="100" height="20" uuid="15fb649e-e7b1-4568-9b61-1cee661f3357"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Mengetahui,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="456" y="20" width="100" height="20" uuid="30dc7161-4dd5-453b-ac6e-51a581beeb4c"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Kepala Sekolah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="456" y="75" width="100" height="20" uuid="561006cb-fbff-4346-b247-66b5a18ceeba"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Indra Pramana, Spd.]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
